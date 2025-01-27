@@ -14,12 +14,11 @@ def download_youtube_videos(video_urls):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-if _name_ == "_main_":
-    
-    video_urls = [
+
+video_urls = [
         "Link 1",
         "Link 2",
     ]
     
   
-    download_youtube_videos(video_urls)
+download_youtube_videos(video_urls)
